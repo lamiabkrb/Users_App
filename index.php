@@ -1,3 +1,16 @@
+<?php
+include_once('db.php');
+if(isset($_POST['save'])){
+   $name=$_POST['name'];
+   $emai=$_POST['email'];
+   $mobile=$_POST['mobile'];
+   $password=$_POST['password'];
+
+   $add_sql=INSERT INTO `user`(`name`, `email`, `password`, `mobile`) VALUES 
+   ('[value-2]','[value-3]','[value-4]','[value-5]')
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head> 
