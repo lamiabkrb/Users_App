@@ -1,5 +1,5 @@
 <?php
-$con=mysqli('localhost','root','','users_app');
+$con=new mysqli('localhost','root','','user_app');
 if(!$con){
     die(mysqli_error($con));
 }
