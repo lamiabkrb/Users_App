@@ -27,6 +27,9 @@ if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['mobile'])
 }
 ?>
 
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head> 
@@ -53,6 +56,7 @@ if(!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['mobile'])
     <script src="js/toastr.js"></script>
     <script>
   feather.replace();
+  toastr.info('Are you the 6 fingered man?')
 </script>
 </body>
 </html>
